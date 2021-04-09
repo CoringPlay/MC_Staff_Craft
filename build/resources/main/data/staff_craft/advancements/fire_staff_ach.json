@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "staff_craft:fire_staff"
+    },
+    "title": {
+      "translate": "advancements.fire_staff_ach.title"
+    },
+    "description": {
+      "translate": "advancements.fire_staff_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_staff_ach": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "staff_craft:fire_staff",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "staff_craft:staffach"
+}

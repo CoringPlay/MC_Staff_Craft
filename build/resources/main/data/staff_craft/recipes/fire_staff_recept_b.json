@@ -1,0 +1,16 @@
+{
+  "group": "staff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "staff_craft:staff"
+    },
+    {
+      "item": "minecraft:fire_charge"
+    }
+  ],
+  "result": {
+    "item": "staff_craft:fire_staff",
+    "count": 1
+  }
+}

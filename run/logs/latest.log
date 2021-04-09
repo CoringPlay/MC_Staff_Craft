@@ -1,0 +1,110 @@
+[09Apr2021 11:38:10.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[09Apr2021 11:38:10.218] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_275 by BellSoft
+[09Apr2021 11:38:11.846] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09Apr2021 11:38:14.873] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[09Apr2021 11:38:18.812] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[09Apr2021 11:38:39.344] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[09Apr2021 11:38:42.106] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[09Apr2021 11:38:42.148] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[09Apr2021 11:38:43.910] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitybulletfire_staff
+[09Apr2021 11:38:43.912] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitybulletwater_staff
+[09Apr2021 11:38:49.991] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[09Apr2021 11:38:50.124] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[09Apr2021 11:38:50.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09Apr2021 11:38:54.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[09Apr2021 11:39:04.322] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[09Apr2021 11:39:04.323] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[09Apr2021 11:39:04.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[09Apr2021 11:39:04.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[09Apr2021 11:39:04.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x2 minecraft:textures/atlas/signs.png-atlas
+[09Apr2021 11:39:04.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Apr2021 11:39:04.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Apr2021 11:39:04.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[09Apr2021 11:39:04.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[09Apr2021 11:39:04.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Apr2021 11:39:06.105] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Apr2021 11:39:06.107] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09Apr2021 11:39:06.107] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09Apr2021 11:39:07.845] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[09Apr2021 11:41:18.218] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Apr2021 11:41:18.219] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.220] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.221] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Apr2021 11:41:18.223] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.937] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[09Apr2021 11:41:18.938] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[09Apr2021 11:41:19.202] [Server thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod curios which appears to be missing, things may not work well
+[09Apr2021 11:41:19.215] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[09Apr2021 11:41:19.232] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:amulet
+[09Apr2021 11:41:19.233] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:crown
+[09Apr2021 11:41:19.236] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:knuckles
+[09Apr2021 11:41:19.239] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:ring
+[09Apr2021 11:41:19.264] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	curios:amulet: 890
+	curios:ring: 893
+	curios:crown: 891
+	curios:knuckles: 892
+
+[09Apr2021 11:41:49.150] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[09Apr2021 11:41:49.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:curios
+[09Apr2021 11:41:49.392] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar, main, Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar, jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:41:51.695] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[09Apr2021 11:41:54.579] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 827 advancements
+[09Apr2021 11:41:55.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.719] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[09Apr2021 11:41:57.938] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:57.938] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:58.341] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:59.196] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[09Apr2021 11:41:59.196] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3985 ms
+[09Apr2021 11:41:59.865] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Apr2021 11:41:59.867] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Apr2021 11:41:59.871] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 6, from 10
+[09Apr2021 11:42:06.634] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[09Apr2021 11:42:06.724] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:knuckles is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:ring is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:knuckles is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:ring is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:crown is
+[09Apr2021 11:42:06.785] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4a5cbfcc
+[09Apr2021 11:42:06.820] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:d38c5295] logged in with entity id 178 at (261.56764903963966, 4.0, 298.5550363495897)
+[09Apr2021 11:42:06.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[09Apr2021 11:42:07.345] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[09Apr2021 11:42:07.747] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:42:07.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:42:07.890] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[09Apr2021 11:42:08.610] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[09Apr2021 11:42:08.665] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 54.66 ms
+[09Apr2021 11:42:08.665] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[09Apr2021 11:42:09.601] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 936.0 ms
+[09Apr2021 11:42:09.602] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[09Apr2021 11:42:09.604] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 2.174 ms
+[09Apr2021 11:42:09.604] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[09Apr2021 11:42:09.705] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 101.0 ms
+[09Apr2021 11:42:09.718] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[09Apr2021 11:42:09.793] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 75.45 ms
+[09Apr2021 11:42:09.837] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 1.947 s
+[09Apr2021 11:42:09.926] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 65 advancements
+[09Apr2021 11:42:50.939] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:42:50.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:10.668] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Unknown command
+[09Apr2021 11:43:10.668] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] /gamemode<--[HERE]
+[09Apr2021 11:43:14.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[09Apr2021 11:43:14.658] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[09Apr2021 11:43:16.791] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:43:16.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:25.991] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:43:25.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:33.983] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[09Apr2021 11:43:34.010] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[09Apr2021 11:43:34.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[09Apr2021 11:43:34.024] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[09Apr2021 11:43:34.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:34.155] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[09Apr2021 11:43:34.177] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved

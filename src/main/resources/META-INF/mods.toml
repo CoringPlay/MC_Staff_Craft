@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="staff_craft"
+version="0.0.3"
+displayName="Staff_Craft"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/staff-craft"
+authors="CoringPlay, MCreator"
+
+[[dependencies.staff_craft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.staff_craft]]
+    modId="just_enough_items"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.staff_craft]]
+    modId="patchouli"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+

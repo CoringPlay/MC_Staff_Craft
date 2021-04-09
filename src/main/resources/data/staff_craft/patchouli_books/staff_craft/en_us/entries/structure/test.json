@@ -1,0 +1,32 @@
+{
+    "name": "Water Structure",
+    "icon": "minecraft:water_bucket",
+    "category": "staff_craft:structure",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Fire staff will allow you to throw fireballs that set creatures on fire."
+        },
+        {
+            "type": "multiblock",
+            "name": "Water Structure",
+            "multiblock": {
+    "pattern": [
+        [ " GRG ", "GGRGG", "RRRRR", "GGRGG", " GRG " ], 
+        [ "GG GG", "G   G", "     ", "G   G", "GG GG" ],
+        [ "G   G", "     ", "     ", "     ", "G   G" ], 
+        [ "G   G", "     ", "  0  ", "     ", "G   G" ], 
+        [ "_WWW_", "WWWWW", "WWWWW", "WWWWW", "_WWW_" ]
+    ],
+    "mapping": {
+        "G": "minecraft:gold_block",
+        "W": "minecraft:dirt",
+        "R": "minecraft:red_terracotta"
+    },
+    "symmetrical": true
+},
+			"enable_visualize":"true",
+            "text": "The Fire staff will allow you to throw fireballs that set creatures on fire."
+        }
+    ]
+}

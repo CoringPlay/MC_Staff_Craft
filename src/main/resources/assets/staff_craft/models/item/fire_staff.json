@@ -1,0 +1,7 @@
+{
+  "parent": "staff_craft:custom/model",
+  "textures": {
+    "0": "staff_craft:blocks/fire_staff",
+    "particle": "staff_craft:items/fire_staff"
+  }
+}

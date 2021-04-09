@@ -1,0 +1,16 @@
+{
+    "name": "Water Staff",
+    "icon": "staff_craft:water_staff",
+    "category": "staff_craft:staff",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Fire staff will allow you to throw fireballs that set creatures on fire."
+        },
+        {
+            "type": "spotlight",
+            "item": "staff_craft:water_staff",
+            "text": "Everything that helps you will help you in life."
+        }
+    ]
+}

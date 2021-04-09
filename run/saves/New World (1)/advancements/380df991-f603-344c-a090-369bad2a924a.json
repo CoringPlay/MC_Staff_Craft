@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2021-04-03 13:08:41 +1000"
+    },
+    "done": true
+  },
+  "staff_craft:staffach": {
+    "criteria": {
+      "staffach": "2021-04-03 13:06:52 +1000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2021-04-03 13:08:41 +1000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle": "2021-04-03 12:59:10 +1000"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

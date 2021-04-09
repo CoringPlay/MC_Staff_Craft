@@ -1,0 +1,16 @@
+{
+  "item.staff_craft.water_bullet": "Water Bullet",
+  "item.minecraft.splash_potion.effect.fly_potion": "Splash Flight",
+  "item.minecraft.tipped_arrow.effect.fly_potion": "Arrow of Flight",
+  "item.minecraft.lingering_potion.effect.fly_potion": "Lingering Flight",
+  "advancements.staffach.title": "The Magic Staff",
+  "advancements.staffach.descr": "The adventure begins",
+  "item.staff_craft.staff": "Staff",
+  "item.staff_craft.water_staff": "Water Staff",
+  "item.staff_craft.staff_flight": "Staff Flight",
+  "advancements.fire_staff_ach.title": "Fire Mage",
+  "item.staff_craft.fire_staff": "Fire Staff",
+  "item.minecraft.potion.effect.fly_potion": "Flight",
+  "advancements.fire_staff_ach.descr": "Do you feel the power? (Make A Fire Stick)",
+  "effect.fly_potion": "Flight Potion"
+}

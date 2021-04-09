@@ -1,0 +1,1106 @@
+[09Apr2021 11:38:10.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[09Apr2021 11:38:10.218] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_275 by BellSoft
+[09Apr2021 11:38:10.258] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,fmldevdata,fmldevclient,fmldevserver,fmluserdevserver,testharness,fmluserdevdata,fmlclient,fmluserdevclient,fmlserver]
+[09Apr2021 11:38:10.289] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[09Apr2021 11:38:10.318] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[09Apr2021 11:38:10.351] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[09Apr2021 11:38:10.364] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[09Apr2021 11:38:10.533] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [fml]
+[09Apr2021 11:38:10.534] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[09Apr2021 11:38:10.543] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[09Apr2021 11:38:10.543] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[09Apr2021 11:38:10.551] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[09Apr2021 11:38:10.552] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[09Apr2021 11:38:10.555] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
+[09Apr2021 11:38:10.556] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[09Apr2021 11:38:10.558] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.1+55+master.08d32b9
+[09Apr2021 11:38:10.559] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[09Apr2021 11:38:10.561] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[09Apr2021 11:38:10.586] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[09Apr2021 11:38:10.588] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.1.2+9+master.a8b4d92
+[09Apr2021 11:38:10.588] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[09Apr2021 11:38:11.846] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09Apr2021 11:38:11.847] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[09Apr2021 11:38:11.851] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[09Apr2021 11:38:11.863] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[09Apr2021 11:38:11.864] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[09Apr2021 11:38:11.864] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[09Apr2021 11:38:11.868] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : C:\MCreatorWorkspaces\staff_craft\run
+[09Apr2021 11:38:11.869] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\MCreatorWorkspaces\staff_craft\run
+[09Apr2021 11:38:11.869] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : C:\MCreatorWorkspaces\staff_craft\run\mods
+[09Apr2021 11:38:11.870] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\MCreatorWorkspaces\staff_craft\run\mods
+[09Apr2021 11:38:11.870] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : C:\MCreatorWorkspaces\staff_craft\run\config
+[09Apr2021 11:38:11.870] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\MCreatorWorkspaces\staff_craft\run\config
+[09Apr2021 11:38:11.871] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\MCreatorWorkspaces\staff_craft\run\config\fml.toml
+[09Apr2021 11:38:11.871] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[09Apr2021 11:38:11.969] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : C:\MCreatorWorkspaces\staff_craft\run\defaultconfigs
+[09Apr2021 11:38:11.970] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[09Apr2021 11:38:11.971] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmluserdevclient as launch service
+[09Apr2021 11:38:12.670] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.0' Forge group: 'net.minecraftforge'
+[09Apr2021 11:38:12.673] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR forge at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.673] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR mcdata at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[09Apr2021 11:38:12.674] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevLaunchProvider/CORE]: Injecting maven path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo
+[09Apr2021 11:38:12.674] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Got mod coordinates examplemod%%C:\MCreatorWorkspaces\staff_craft\build\resources\main;examplemod%%C:\MCreatorWorkspaces\staff_craft\build\classes\java\main from env
+[09Apr2021 11:38:12.678] [main/DEBUG] [net.minecraftforge.fml.loading.FMLCommonLaunchHandler/CORE]: Found supplied mod coordinates [{examplemod=[C:\MCreatorWorkspaces\staff_craft\build\resources\main, C:\MCreatorWorkspaces\staff_craft\build\classes\java\main]}]
+[09Apr2021 11:38:12.690] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[09Apr2021 11:38:12.692] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[09Apr2021 11:38:12.707] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[09Apr2021 11:38:12.707] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Skipping adding forge jar - javafml is already present
+[09Apr2021 11:38:12.712] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[09Apr2021 11:38:12.712] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[09Apr2021 11:38:12.713] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=srgtomcp:1234}
+[09Apr2021 11:38:12.714] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[09Apr2021 11:38:12.715] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[09Apr2021 11:38:12.715] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[09Apr2021 11:38:12.873] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\MCreatorWorkspaces\staff_craft\build\resources\main
+[09Apr2021 11:38:12.874] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.875] [main/DEBUG] [net.minecraftforge.userdev.ClasspathLocator/CORE]: Found classpath mod: C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.876] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.876] [main/DEBUG] [net.minecraftforge.userdev.ClasspathLocator/CORE]: Found classpath mod: C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.877] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR classpath_mod at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.878] [main/DEBUG] [net.minecraftforge.userdev.ClasspathLocator/CORE]: Found classpath mod: C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.884] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Program Files\Pylo\MCreator\jdk\jre\lib\jfr.jar
+[09Apr2021 11:38:12.888] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Program Files\Pylo\MCreator\jdk\jre\lib\ext\jfxrt.jar
+[09Apr2021 11:38:12.889] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.902] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar
+[09Apr2021 11:38:12.903] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.905] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:12.906] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[09Apr2021 11:38:12.957] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\2.2.0\e663ad1f795b81da8a132c8fde40580b05c2343d\eventbus-2.2.0-service.jar
+[09Apr2021 11:38:12.958] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\2.0.3\9e3f5323f6a2c3ac04fa27481cbeeb48f89757bd\coremods-2.0.3.jar
+[09Apr2021 11:38:12.959] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\2.1.2\867d339ca81f375c560da6d37084066e7f537f15\forgespi-2.1.2.jar
+[09Apr2021 11:38:12.960] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\2.0.24\944c24a8519981847ffb36c6dcd059d96fcb4b0\datafixerupper-2.0.24.jar
+[09Apr2021 11:38:12.961] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.25\9834cdf236c22e84b946bba989e2f94ef5897c3c\authlib-1.5.25.jar
+[09Apr2021 11:38:12.962] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\2.1.1\1d1e439ef345ab5fd76df679de70a0c35f03bf4a\accesstransformers-2.1.1-shadowed.jar
+[09Apr2021 11:38:12.963] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\42f764429585b8a12ba42d43a02c0c9018710052\modlauncher-5.1.2.jar
+[09Apr2021 11:38:12.966] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\5.1.2\63c817b0e96e6accbb602e7de7c938fc444025f3\modlauncher-5.1.2-api.jar
+[09Apr2021 11:38:12.967] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+[09Apr2021 11:38:12.968] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.0.9\d1e1ba354a40b5703340b5cb02fdca489cff3646\mergetool-1.0.9-api.jar
+[09Apr2021 11:38:12.969] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\7.2\ca2954e8d92a05bacc28ff465b25c70e0f512497\asm-commons-7.2.jar
+[09Apr2021 11:38:12.970] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar
+[09Apr2021 11:38:12.971] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\7.2\b6e6abe057f23630113f4167c34bda7086691258\asm-analysis-7.2.jar
+[09Apr2021 11:38:12.972] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\7.2\3a23cc36edaf8fc5a89cb100182758ccb5991487\asm-tree-7.2.jar
+[09Apr2021 11:38:12.973] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\7.2\fa637eb67eb7628c915d73762b681ae7ff0b9731\asm-7.2.jar
+[09Apr2021 11:38:12.974] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\cpw.mods\grossjava9hacks\1.3.3\e49222512ea6cabdd8b49761cef1d5a207b1f0d9\grossjava9hacks-1.3.3.jar
+[09Apr2021 11:38:12.975] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+[09Apr2021 11:38:12.976] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.2\3ac4263d06433da39a5eee95e2679f1642d921f0\toml-3.6.2.jar
+[09Apr2021 11:38:12.977] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.2\56f6500038861d4a8832072676da7bf7916217d0\core-3.6.2.jar
+[09Apr2021 11:38:12.978] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline\3.12.1\de2bd909cb9f8eaa741bd03df4a1bd3f6eb593c7\jline-3.12.1.jar
+[09Apr2021 11:38:12.979] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.6.3\f8ff8032903882376e8d000c51e3e16d20fc7df7\maven-artifact-3.6.3.jar
+[09Apr2021 11:38:12.980] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.8.3\98f84f353457629e81cc6827224871b1a8faa7af\typetools-0.8.3.jar
+[09Apr2021 11:38:12.983] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+[09Apr2021 11:38:12.984] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\f378f889797edd7df8d32272c06ca80a1b6b0f58\text2speech-1.11.3.jar
+[09Apr2021 11:38:12.985] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.11.3\c0b242c0091be5acbf303263c7eeeaedd70544c7\text2speech-1.11.3-natives-windows.jar
+[09Apr2021 11:38:12.987] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.2\6c2fb3f5b7cd27504726aef1b674b542a0c9cf53\log4j-core-2.11.2.jar
+[09Apr2021 11:38:12.989] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.2\f5e9a2ffca496057d6891a3de65128efc636e26e\log4j-api-2.11.2.jar
+[09Apr2021 11:38:12.991] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+[09Apr2021 11:38:12.992] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\patchy\1.1\aef610b34a1be37fa851825f12372b78424d8903\patchy-1.1.jar
+[09Apr2021 11:38:12.993] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\oshi-project\oshi-core\1.1\9ddf7b048a8d701be231c0f4f95fd986198fd2d8\oshi-core-1.1.jar
+[09Apr2021 11:38:12.995] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.0.0\6ef160c3133a78de015830860197602ca1c855d3\java-objc-bridge-1.0.0.jar
+[09Apr2021 11:38:12.996] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\4.4.0\cb208278274bf12ebdb56c61bd7407e6f774d65a\jna-4.4.0.jar
+[09Apr2021 11:38:12.997] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.java.dev.jna\platform\3.4.0\e3f70017be8100d3d6923f50b3d2ee17714e9c13\platform-3.4.0.jar
+[09Apr2021 11:38:13.000] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar
+[09Apr2021 11:38:13.002] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\javabridge\1.0.22\6aa6453aa99a52a5cd91749da1af6ab70e082ab3\javabridge-1.0.22.jar
+[09Apr2021 11:38:13.004] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.1.25.Final\d0626cd3108294d1d58c05859add27b4ef21f83b\netty-all-4.1.25.Final.jar
+[09Apr2021 11:38:13.007] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\21.0\3a3d111be1be1b745edfa7d91678a12d7ed38709\guava-21.0.jar
+[09Apr2021 11:38:13.009] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.8.1\6505a72a097d9270f7a9e7bf42c4238283247755\commons-lang3-3.8.1.jar
+[09Apr2021 11:38:13.010] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.5\2852e6e05fbb95076fc091f6d1780f1f8fe35e0f\commons-io-2.5.jar
+[09Apr2021 11:38:13.013] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar
+[09Apr2021 11:38:13.019] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.10\4b95f4897fa13f2cd904aee711aeafc0c5295cd8\commons-codec-1.10.jar
+[09Apr2021 11:38:13.023] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar
+[09Apr2021 11:38:13.024] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar
+[09Apr2021 11:38:13.025] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.0.17\c6b7dc51dd44379cc751b7504816006e9be4b1e6\brigadier-1.0.17.jar
+[09Apr2021 11:38:13.027] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar
+[09Apr2021 11:38:13.028] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar
+[09Apr2021 11:38:13.029] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar
+[09Apr2021 11:38:13.030] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar
+[09Apr2021 11:38:13.033] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.2.1\5ad88f325e424f8dbc2be5459e21ea5cab3864e9\fastutil-8.2.1.jar
+[09Apr2021 11:38:13.036] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\ee8e57a79300f78294576d87c4a587f8c99402e2\lwjgl-jemalloc-3.2.2.jar
+[09Apr2021 11:38:13.039] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.2.2\338b25b99da3ba5f441f6492f2ce2a9c608860ed\lwjgl-jemalloc-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.041] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\2b772a102b0a11ee5f2109a5b136f4dc7c630827\lwjgl-openal-3.2.2.jar
+[09Apr2021 11:38:13.042] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.2.2\ec20a7d42a2438528fca87e60b1705f1e2339ddb\lwjgl-openal-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.043] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\6ac5bb88b44c43ea195a570aab059f63da004cd8\lwjgl-opengl-3.2.2.jar
+[09Apr2021 11:38:13.044] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.2.2\d8dcdc91066cae2d2d8279cb4a9f9f05d9525826\lwjgl-opengl-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.045] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\d3ad4df38e400b8afba1de63f84338809399df5b\lwjgl-glfw-3.2.2.jar
+[09Apr2021 11:38:13.046] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.2.2\dc6826d636bf796b33a49038c354210e661bfc17\lwjgl-glfw-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.047] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f\lwjgl-stb-3.2.2.jar
+[09Apr2021 11:38:13.049] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.2.2\811f705cbb29e8ae8d60bdf8fdd38c0c123ad3ef\lwjgl-stb-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.050] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9\lwjgl-tinyfd-3.2.2.jar
+[09Apr2021 11:38:13.051] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.2.2\e9115958773644e863332a6a06488d26f9e1fc9f\lwjgl-tinyfd-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.052] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\8ad6294407e15780b43e84929c40e4c5e997972e\lwjgl-3.2.2.jar
+[09Apr2021 11:38:13.053] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.2.2\5359f3aa50d36352815fc662ea73e1c00d22170\lwjgl-3.2.2-natives-windows.jar
+[09Apr2021 11:38:13.054] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.7.2\e27d8ab4f984f9d186f54da984a6ab1cccac755e\antlr4-runtime-4.7.2.jar
+[09Apr2021 11:38:13.055] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+[09Apr2021 11:38:13.056] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.2.1\13b015768e0d04849d2794e4c47eb02d01a0de32\plexus-utils-3.2.1.jar
+[09Apr2021 11:38:13.056] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR manifest_jar at path C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+[09Apr2021 11:38:13.062] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[09Apr2021 11:38:13.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (userdev classpath:null),(mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[09Apr2021 11:38:13.433] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ExplodedDirectoryLocator/LOADING]: Found exploded directory mod manifest at C:\MCreatorWorkspaces\staff_craft\build\resources\main\META-INF\mods.toml
+[09Apr2021 11:38:13.440] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:13.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar with {forge} mods - versions {31.2.0}
+[09Apr2021 11:38:13.518] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar with language javafml
+[09Apr2021 11:38:13.636] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[09Apr2021 11:38:13.636] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[09Apr2021 11:38:13.636] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:13.648] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar with {jei} mods - versions {6.0.2.12}
+[09Apr2021 11:38:13.648] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar with language javafml
+[09Apr2021 11:38:13.649] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:13.651] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar with {patchouli} mods - versions {1.15.2-1.2-34.184}
+[09Apr2021 11:38:13.651] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar with language javafml
+[09Apr2021 11:38:13.652] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod patchouli_on_advancement with Javascript path asm/on_advancement.js
+[09Apr2021 11:38:13.652] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod asm/on_advancement.js
+[09Apr2021 11:38:13.653] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\MCreatorWorkspaces\staff_craft\build\resources\main
+[09Apr2021 11:38:13.656] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {staff_craft} mods - versions {0.0.3}
+[09Apr2021 11:38:13.656] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\MCreatorWorkspaces\staff_craft\build\resources\main with language javafml
+[09Apr2021 11:38:13.663] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar
+[09Apr2021 11:38:13.695] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file client-extra.jar with {minecraft} mods - versions {1.15.2}
+[09Apr2021 11:38:13.695] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.15.2\client-extra.jar with language minecraft
+[09Apr2021 11:38:13.724] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 3 mandatory requirements
+[09Apr2021 11:38:13.725] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[09Apr2021 11:38:14.436] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 12295 method mappings from methods.csv
+[09Apr2021 11:38:14.480] [main/DEBUG] [net.minecraftforge.userdev.MCPNamingService/CORE]: Loaded 16430 field mappings from fields.csv
+[09Apr2021 11:38:14.560] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[09Apr2021 11:38:14.560] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[09Apr2021 11:38:14.561] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[09Apr2021 11:38:14.561] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[09Apr2021 11:38:14.562] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[09Apr2021 11:38:14.792] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[09Apr2021 11:38:14.793] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from asm/on_advancement.js
+[09Apr2021 11:38:14.825] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[09Apr2021 11:38:14.844] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModMethodTransformer@49a64d82 to Target : METHOD {Lnet/minecraft/client/multiplayer/ClientAdvancementManager;} {read} {(Lnet/minecraft/network/play/server/SAdvancementInfoPacket;)V}
+[09Apr2021 11:38:14.846] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@77b21474 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[09Apr2021 11:38:14.847] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@52d10fb8 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[09Apr2021 11:38:14.847] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@41c07648 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[09Apr2021 11:38:14.847] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@1fe8d51b to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[09Apr2021 11:38:14.847] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@781e7326 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[09Apr2021 11:38:14.848] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@22680f52 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[09Apr2021 11:38:14.848] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[09Apr2021 11:38:14.873] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[09Apr2021 11:38:14.874] [main/DEBUG] [net.minecraftforge.userdev.FMLUserdevClientLaunchProvider/CORE]: Launching minecraft in cpw.mods.modlauncher.TransformingClassLoader@68ed96ca with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, DONT_CRASH, --userProperties, {}]
+[09Apr2021 11:38:18.812] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[09Apr2021 11:38:20.226] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[09Apr2021 11:38:21.330] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[09Apr2021 11:38:21.685] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[09Apr2021 11:38:30.672] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[09Apr2021 11:38:30.723] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[09Apr2021 11:38:31.560] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[09Apr2021 11:38:39.344] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[09Apr2021 11:38:40.870] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4535
+[09Apr2021 11:38:41.539] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[09Apr2021 11:38:41.616] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 6 threads for parallel mod-loading
+[09Apr2021 11:38:41.628] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.652] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.661] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca - got cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.661] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca & cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.737] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca - got cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.mcreator.staffcraft.StaffCraftMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca & cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.836] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.mcreator.staffcraft.StaffCraftMod with cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.836] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.836] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca - got cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.836] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for vazkii.patchouli.common.base.Patchouli with classLoader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca & cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.844] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass vazkii.patchouli.common.base.Patchouli with cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.844] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.845] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca - got cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.845] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for mezz.jei.JustEnoughItems with classLoader cpw.mods.modlauncher.TransformingClassLoader@68ed96ca & cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:41.848] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass mezz.jei.JustEnoughItems with cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:42.008] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[09Apr2021 11:38:42.036] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance staff_craft of type net.mcreator.staffcraft.StaffCraftMod
+[09Apr2021 11:38:42.083] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance jei of type mezz.jei.JustEnoughItems
+[09Apr2021 11:38:42.083] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[09Apr2021 11:38:42.084] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@68ed96ca
+[09Apr2021 11:38:42.099] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.0
+[09Apr2021 11:38:42.099] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[09Apr2021 11:38:42.100] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[09Apr2021 11:38:42.106] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[09Apr2021 11:38:42.106] [modloading-worker-2/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
+[09Apr2021 11:38:42.108] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance patchouli of type vazkii.patchouli.common.base.Patchouli
+[09Apr2021 11:38:42.129] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance jei of type mezz.jei.JustEnoughItems
+[09Apr2021 11:38:42.129] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for jei
+[09Apr2021 11:38:42.106] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[09Apr2021 11:38:42.148] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[09Apr2021 11:38:42.311] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[09Apr2021 11:38:42.313] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for jei
+[09Apr2021 11:38:42.549] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file patchouli-common.toml for patchouli tracking
+[09Apr2021 11:38:42.553] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file patchouli-client.toml for patchouli tracking
+[09Apr2021 11:38:42.575] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance patchouli of type vazkii.patchouli.common.base.Patchouli
+[09Apr2021 11:38:42.575] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for patchouli
+[09Apr2021 11:38:42.575] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for patchouli
+[09Apr2021 11:38:42.582] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.base.ClientTicker to FORGE
+[09Apr2021 11:38:42.814] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[09Apr2021 11:38:42.814] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[09Apr2021 11:38:42.853] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[09Apr2021 11:38:42.853] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[09Apr2021 11:38:42.853] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[09Apr2021 11:38:42.857] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[09Apr2021 11:38:42.935] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[09Apr2021 11:38:42.944] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.base.ClientAdvancements to FORGE
+[09Apr2021 11:38:43.035] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.base.InventoryBookButtonHandler to FORGE
+[09Apr2021 11:38:43.108] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.handler.BookRightClickHandler to FORGE
+[09Apr2021 11:38:43.159] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.handler.TooltipHandler to FORGE
+[09Apr2021 11:38:43.236] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.client.handler.MultiblockVisualizationHandler to FORGE
+[09Apr2021 11:38:43.506] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.common.item.PatchouliItems to MOD
+[09Apr2021 11:38:43.549] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance staff_craft of type net.mcreator.staffcraft.StaffCraftMod
+[09Apr2021 11:38:43.549] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for staff_craft
+[09Apr2021 11:38:43.549] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for staff_craft
+[09Apr2021 11:38:43.549] [modloading-worker-1/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for staff_craft
+[09Apr2021 11:38:43.662] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.common.handler.ReloadContentsHandler to FORGE
+[09Apr2021 11:38:43.666] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing vazkii.patchouli.common.handler.PlayerJoinHandler to FORGE
+[09Apr2021 11:38:43.718] [modloading-worker-5/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for patchouli
+[09Apr2021 11:38:43.734] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[09Apr2021 11:38:43.736] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.736] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.737] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.NewRegistry
+[09Apr2021 11:38:43.748] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Processing ObjectHolder annotations
+[09Apr2021 11:38:43.802] [Render thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Found 2590 ObjectHolder annotations
+[09Apr2021 11:38:43.823] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.840] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.841] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.841] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.842] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.842] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.842] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.843] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.843] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block>
+[09Apr2021 11:38:43.843] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block
+[09Apr2021 11:38:43.848] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block
+[09Apr2021 11:38:43.848] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.849] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.849] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.849] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.851] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.851] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.867] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.867] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.867] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:item>
+[09Apr2021 11:38:43.867] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:item
+[09Apr2021 11:38:43.869] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:item
+[09Apr2021 11:38:43.869] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.869] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:loot_modifier_serializers>
+[09Apr2021 11:38:43.870] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:loot_modifier_serializers
+[09Apr2021 11:38:43.879] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:loot_modifier_serializers
+[09Apr2021 11:38:43.879] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<forge:moddimensions>
+[09Apr2021 11:38:43.891] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: forge:moddimensions
+[09Apr2021 11:38:43.892] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: forge:moddimensions
+[09Apr2021 11:38:43.892] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.892] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:activities>
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:activities
+[09Apr2021 11:38:43.893] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:activities
+[09Apr2021 11:38:43.894] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.894] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.895] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome>
+[09Apr2021 11:38:43.895] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.896] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:biome_source_type>
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:biome_source_type
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:biome_source_type
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.897] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:block_entity_type>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:block_entity_type
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:block_entity_type
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.898] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:carver>
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:carver
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:carver
+[09Apr2021 11:38:43.899] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_generator_type>
+[09Apr2021 11:38:43.900] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_generator_type
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_generator_type
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.901] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:chunk_status>
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:chunk_status
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:chunk_status
+[09Apr2021 11:38:43.902] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:dataserializers>
+[09Apr2021 11:38:43.903] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:dataserializers
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:dataserializers
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.904] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.905] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:decorator>
+[09Apr2021 11:38:43.905] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:decorator
+[09Apr2021 11:38:43.905] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:decorator
+[09Apr2021 11:38:43.906] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.906] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.906] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.906] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:enchantment>
+[09Apr2021 11:38:43.907] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:enchantment
+[09Apr2021 11:38:43.908] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:enchantment
+[09Apr2021 11:38:43.908] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.908] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.908] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.908] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.910] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitybulletfire_staff
+[09Apr2021 11:38:43.912] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitybulletwater_staff
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:entity_type>
+[09Apr2021 11:38:43.913] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:entity_type
+[09Apr2021 11:38:43.914] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:entity_type
+[09Apr2021 11:38:43.914] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.914] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.914] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.914] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:feature>
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:feature
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:feature
+[09Apr2021 11:38:43.915] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.916] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.916] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.920] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.921] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.921] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.921] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.931] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.931] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:fluid>
+[09Apr2021 11:38:43.931] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:fluid
+[09Apr2021 11:38:43.932] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:fluid
+[09Apr2021 11:38:43.932] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.940] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.940] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.940] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.942] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.942] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.942] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.942] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.942] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:memory_module_type>
+[09Apr2021 11:38:43.950] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:memory_module_type
+[09Apr2021 11:38:43.951] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:memory_module_type
+[09Apr2021 11:38:43.951] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:menu>
+[09Apr2021 11:38:43.953] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:menu
+[09Apr2021 11:38:43.954] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:menu
+[09Apr2021 11:38:43.954] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:43.954] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.954] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.954] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.987] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.988] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.988] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.988] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.988] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:mob_effect>
+[09Apr2021 11:38:43.988] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:mob_effect
+[09Apr2021 11:38:43.989] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:mob_effect
+[09Apr2021 11:38:43.989] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.008] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:motive>
+[09Apr2021 11:38:44.009] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:motive
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:motive
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.010] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.011] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.011] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:particle_type>
+[09Apr2021 11:38:44.011] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:particle_type
+[09Apr2021 11:38:44.011] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:particle_type
+[09Apr2021 11:38:44.012] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.012] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.022] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.022] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.023] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.024] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.024] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.024] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.024] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:point_of_interest_type>
+[09Apr2021 11:38:44.025] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:point_of_interest_type
+[09Apr2021 11:38:44.026] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:point_of_interest_type
+[09Apr2021 11:38:44.026] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.026] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.026] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.026] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.038] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.038] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.038] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.038] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.038] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:potion>
+[09Apr2021 11:38:44.039] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:potion
+[09Apr2021 11:38:44.040] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:potion
+[09Apr2021 11:38:44.040] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.058] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.387] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.387] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.387] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.387] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.387] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.388] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.388] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:recipe_serializer>
+[09Apr2021 11:38:44.388] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:recipe_serializer
+[09Apr2021 11:38:44.389] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:recipe_serializer
+[09Apr2021 11:38:44.389] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.406] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:schedule>
+[09Apr2021 11:38:44.407] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:schedule
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:schedule
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sensor_type>
+[09Apr2021 11:38:44.408] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sensor_type
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sensor_type
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:sound_event>
+[09Apr2021 11:38:44.409] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:sound_event
+[09Apr2021 11:38:44.410] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:sound_event
+[09Apr2021 11:38:44.410] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.410] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:stat_type>
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:stat_type
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:stat_type
+[09Apr2021 11:38:44.411] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:surface_builder>
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:surface_builder
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:surface_builder
+[09Apr2021 11:38:44.412] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : RegistryEvent.Register<minecraft:villager_profession>
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Applying holder lookups: minecraft:villager_profession
+[09Apr2021 11:38:44.413] [Render thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Holder lookups applied: minecraft:villager_profession
+[09Apr2021 11:38:44.970] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:44.973] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:staff_craft for mod file C:\MCreatorWorkspaces\staff_craft\build\resources\main
+[09Apr2021 11:38:44.974] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:patchouli for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:44.974] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:45.086] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:45.088] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:staff_craft for mod file C:\MCreatorWorkspaces\staff_craft\build\resources\main
+[09Apr2021 11:38:45.089] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:patchouli for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:45.089] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:38:45.187] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
+[09Apr2021 11:38:49.991] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[09Apr2021 11:38:50.124] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[09Apr2021 11:38:50.149] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[09Apr2021 11:38:50.151] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-client.toml
+[09Apr2021 11:38:50.162] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-client.toml
+[09Apr2021 11:38:50.167] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-client.toml for changes
+[09Apr2021 11:38:50.170] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file patchouli-client.toml changed, sending notifies
+[09Apr2021 11:38:50.172] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\MCreatorWorkspaces\staff_craft\run\config\forge-client.toml
+[09Apr2021 11:38:50.174] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file patchouli-client.toml changed, sending notifies
+[09Apr2021 11:38:50.184] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\forge-client.toml
+[09Apr2021 11:38:50.185] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\forge-client.toml for changes
+[09Apr2021 11:38:50.185] [Server-Worker-2/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[09Apr2021 11:38:50.187] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[09Apr2021 11:38:50.188] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-common.toml
+[09Apr2021 11:38:50.199] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-common.toml
+[09Apr2021 11:38:50.200] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file C:\MCreatorWorkspaces\staff_craft\run\config\patchouli-common.toml for changes
+[09Apr2021 11:38:50.201] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file patchouli-common.toml changed, sending notifies
+[09Apr2021 11:38:50.201] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[09Apr2021 11:38:50.204] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[09Apr2021 11:38:50.204] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : FMLCommonSetupEvent
+[09Apr2021 11:38:50.205] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : FMLCommonSetupEvent
+[09Apr2021 11:38:50.206] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file patchouli-common.toml changed, sending notifies
+[09Apr2021 11:38:50.209] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLCommonSetupEvent
+[09Apr2021 11:38:50.218] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : FMLCommonSetupEvent
+[09Apr2021 11:38:50.232] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLCommonSetupEvent
+[09Apr2021 11:38:50.294] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : FMLCommonSetupEvent
+[09Apr2021 11:38:50.378] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[09Apr2021 11:38:50.380] [Server-Worker-2/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[09Apr2021 11:38:50.382] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
+[09Apr2021 11:38:50.382] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : FMLClientSetupEvent
+[09Apr2021 11:38:50.382] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
+[09Apr2021 11:38:50.383] [modloading-worker-2/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : FMLClientSetupEvent
+[09Apr2021 11:38:50.382] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : FMLClientSetupEvent
+[09Apr2021 11:38:50.384] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLClientSetupEvent
+[09Apr2021 11:38:50.384] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLClientSetupEvent
+[09Apr2021 11:38:50.407] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09Apr2021 11:38:50.642] [modloading-worker-6/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : FMLClientSetupEvent
+[09Apr2021 11:38:54.250] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2854",
+    "1.12.2-recommended": "14.23.5.2854",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.23",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.50",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.1.4",
+    "1.16.5-recommended": "36.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[09Apr2021 11:38:54.252] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[09Apr2021 11:39:03.232] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[09Apr2021 11:39:03.239] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : InterModEnqueueEvent
+[09Apr2021 11:39:03.239] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[09Apr2021 11:39:03.240] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[09Apr2021 11:39:03.246] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : InterModProcessEvent
+[09Apr2021 11:39:03.246] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : InterModProcessEvent
+[09Apr2021 11:39:03.247] [Server-Worker-1/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[09Apr2021 11:39:03.247] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid staff_craft : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.247] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.247] [modloading-worker-3/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid staff_craft : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.247] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.247] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid patchouli : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.248] [modloading-worker-4/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid patchouli : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.247] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid jei : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.388] [modloading-worker-7/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid jei : FMLLoadCompleteEvent
+[09Apr2021 11:39:03.388] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Freezing registries
+[09Apr2021 11:39:03.393] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.410] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.411] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.420] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.421] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.422] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.429] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.430] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.430] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.431] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.432] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.435] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.435] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.436] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.437] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.437] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.437] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.438] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.438] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.438] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.438] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.439] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.439] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.439] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.439] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[09Apr2021 11:39:03.440] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.441] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.441] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.442] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.442] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.442] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.442] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: FROZEN -> ACTIVE
+[09Apr2021 11:39:03.977] [Server-Worker-1/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: All registries frozen
+[09Apr2021 11:39:04.322] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[09Apr2021 11:39:04.323] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[09Apr2021 11:39:04.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[09Apr2021 11:39:04.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[09Apr2021 11:39:04.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x2 minecraft:textures/atlas/signs.png-atlas
+[09Apr2021 11:39:04.886] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Apr2021 11:39:04.888] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Apr2021 11:39:04.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[09Apr2021 11:39:04.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[09Apr2021 11:39:04.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Apr2021 11:39:06.105] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Apr2021 11:39:06.107] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09Apr2021 11:39:06.107] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09Apr2021 11:39:07.845] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[09Apr2021 11:41:18.218] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Apr2021 11:41:18.219] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.220] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.221] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09Apr2021 11:41:18.223] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09Apr2021 11:41:18.937] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[09Apr2021 11:41:18.938] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[09Apr2021 11:41:19.077] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\New World (3)\serverconfig
+[09Apr2021 11:41:19.078] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[09Apr2021 11:41:19.078] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for .\saves\New World (3)\serverconfig\forge-server.toml
+[09Apr2021 11:41:19.089] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file .\saves\New World (3)\serverconfig\forge-server.toml
+[09Apr2021 11:41:19.090] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file .\saves\New World (3)\serverconfig\forge-server.toml for changes
+[09Apr2021 11:41:19.091] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[09Apr2021 11:41:19.185] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Reading Dimension Entries.
+[09Apr2021 11:41:19.186] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:dimension_type: Clearing registry
+[09Apr2021 11:41:19.188] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 1 Name: minecraft:overworld Value: DimensionType{null}
+[09Apr2021 11:41:19.189] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 2 Name: minecraft:the_end Value: DimensionType{null}
+[09Apr2021 11:41:19.190] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Registering vanilla entry ID: 0 Name: minecraft:the_nether Value: DimensionType{null}
+[09Apr2021 11:41:19.202] [Server thread/ERROR] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod curios which appears to be missing, things may not work well
+[09Apr2021 11:41:19.215] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[09Apr2021 11:41:19.232] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:amulet
+[09Apr2021 11:41:19.233] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:crown
+[09Apr2021 11:41:19.236] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:knuckles
+[09Apr2021 11:41:19.239] [Server thread/INFO] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Found a missing id from the world curios:ring
+[09Apr2021 11:41:19.252] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: There are 4 mappings missing - attempting a mod remap
+[09Apr2021 11:41:19.264] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	curios:amulet: 890
+	curios:ring: 893
+	curios:crown: 891
+	curios:knuckles: 892
+
+[09Apr2021 11:41:19.265] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Processing missing event for minecraft:item:
+[09Apr2021 11:41:49.150] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[09Apr2021 11:41:49.168] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.176] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.176] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.182] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.182] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.184] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.193] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.194] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.194] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.195] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.196] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.196] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.197] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.197] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.197] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.197] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.197] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.198] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.199] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[09Apr2021 11:41:49.199] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.200] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.200] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.201] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.202] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.202] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.202] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: ACTIVE -> STAGING
+[09Apr2021 11:41:49.377] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[09Apr2021 11:41:49.382] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[09Apr2021 11:41:49.390] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1\forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:41:49.391] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:staff_craft for mod file C:\MCreatorWorkspaces\staff_craft\build\resources\main
+[09Apr2021 11:41:49.391] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:patchouli for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1\Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:41:49.391] [Server thread/DEBUG] [net.minecraftforge.fml.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:jei for mod file C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\mezz\jei\jei-1.15.2\6.0.2.12_mapped_snapshot_20200514-1.15.1\jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:41:49.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:curios
+[09Apr2021 11:41:49.392] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1.jar, main, Patchouli-1.15.2-1.2-34.184_mapped_snapshot_20200514-1.15.1.jar, jei-1.15.2-6.0.2.12_mapped_snapshot_20200514-1.15.1.jar
+[09Apr2021 11:41:51.695] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[09Apr2021 11:41:54.579] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 827 advancements
+[09Apr2021 11:41:55.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.347] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09Apr2021 11:41:56.719] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[09Apr2021 11:41:57.938] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:57.938] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:58.341] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[09Apr2021 11:41:59.196] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[09Apr2021 11:41:59.196] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3985 ms
+[09Apr2021 11:41:59.849] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension 1 to unload
+[09Apr2021 11:41:59.850] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Queueing dimension -1 to unload
+[09Apr2021 11:41:59.857] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension 1
+[09Apr2021 11:41:59.865] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Apr2021 11:41:59.867] [Server thread/DEBUG] [net.minecraftforge.common.DimensionManager/DIMS]: Unloading dimension -1
+[09Apr2021 11:41:59.867] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Apr2021 11:41:59.871] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 6, from 10
+[09Apr2021 11:42:03.910] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[09Apr2021 11:42:04.586] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting local connection.
+[09Apr2021 11:42:06.520] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.fml.network.FMLHandshakeMessages$S2CModList' to 'fml:handshake' sequence 0
+[09Apr2021 11:42:06.561] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 1
+[09Apr2021 11:42:06.577] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[09Apr2021 11:42:06.585] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Logging into server with mod list [minecraft, forge, staff_craft, patchouli, jei]
+[09Apr2021 11:42:06.586] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'patchouli:main' : Version test of '1' from server : ACCEPTED
+[09Apr2021 11:42:06.586] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from server : ACCEPTED
+[09Apr2021 11:42:06.586] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'staff_craft:staff_craft' : Version test of '1' from server : ACCEPTED
+[09Apr2021 11:42:06.589] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from server
+[09Apr2021 11:42:06.591] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 0
+[09Apr2021 11:42:06.597] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted server connection
+[09Apr2021 11:42:06.601] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/REGISTRIES]: Expecting 19 registries: [minecraft:recipe_serializer, minecraft:sound_event, minecraft:particle_type, minecraft:villager_profession, minecraft:item, minecraft:potion, minecraft:block_entity_type, minecraft:block, minecraft:mob_effect, minecraft:stat_type, forge:moddimensions, minecraft:biome, minecraft:menu, minecraft:enchantment, minecraft:motive, minecraft:feature, minecraft:dataserializers, minecraft:fluid, minecraft:entity_type]
+[09Apr2021 11:42:06.602] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[09Apr2021 11:42:06.602] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received config sync from server
+[09Apr2021 11:42:06.602] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Dispatching wrapped packet reply for channel fml:handshake with index 1
+[09Apr2021 11:42:06.602] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 0
+[09Apr2021 11:42:06.604] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 0 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SModListReply
+[09Apr2021 11:42:06.604] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client connection with modlist [minecraft, forge, staff_craft, patchouli, jei]
+[09Apr2021 11:42:06.605] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'patchouli:main' : Version test of '1' from client : ACCEPTED
+[09Apr2021 11:42:06.605] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:loginwrapper' : Version test of 'FML2' from client : ACCEPTED
+[09Apr2021 11:42:06.605] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:handshake' : Version test of 'FML2' from client : ACCEPTED
+[09Apr2021 11:42:06.605] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'jei:channel' : Version test of '1.0.0' from client : ACCEPTED
+[09Apr2021 11:42:06.605] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of 'FML2' from client : ACCEPTED
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'fml:play' : Version test of 'FML2' from client : ACCEPTED
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of 'FML2' from client : ACCEPTED
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'staff_craft:staff_craft' : Version test of '1' from client : ACCEPTED
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Accepted client connection mod list
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLLoginWrapper/FMLHANDSHAKE]: Recieved login wrapper packet event for channel fml:handshake with index 1
+[09Apr2021 11:42:06.606] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received client indexed reply 1 of type net.minecraftforge.fml.network.FMLHandshakeMessages$C2SAcknowledge
+[09Apr2021 11:42:06.607] [Netty Server IO #1/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Received acknowledgement from client
+[09Apr2021 11:42:06.620] [Server thread/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Handshake complete!
+[09Apr2021 11:42:06.634] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[09Apr2021 11:42:06.724] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:knuckles is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:ring is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:knuckles is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:ring is
+[09Apr2021 11:42:06.725] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\New World (3)\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what curios:crown is
+[09Apr2021 11:42:06.785] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@4a5cbfcc
+[09Apr2021 11:42:06.820] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:d38c5295] logged in with entity id 178 at (261.56764903963966, 4.0, 298.5550363495897)
+[09Apr2021 11:42:06.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[09Apr2021 11:42:07.015] [Netty Local Client IO #0/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming read with desc (Lnet/minecraft/network/play/server/SAdvancementInfoPacket;)V
+[09Apr2021 11:42:07.345] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[09Apr2021 11:42:07.747] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:42:07.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:42:07.890] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI...
+[09Apr2021 11:42:07.954] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[09Apr2021 11:42:07.960] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 4.084 ms
+[09Apr2021 11:42:07.960] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: patchouli:patchouli ...
+[09Apr2021 11:42:07.960] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: patchouli:patchouli took 235.4 ?s
+[09Apr2021 11:42:07.960] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[09Apr2021 11:42:07.960] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug took 15.20 ?s
+[09Apr2021 11:42:07.961] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[09Apr2021 11:42:07.961] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal took 4.200 ?s
+[09Apr2021 11:42:07.968] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft took 68.50 ms
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: patchouli:patchouli ...
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: patchouli:patchouli took 7.200 ?s
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug took 29.00 ?s
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[09Apr2021 11:42:08.037] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal took 3.600 ?s
+[09Apr2021 11:42:08.115] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[09Apr2021 11:42:08.194] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft took 78.80 ms
+[09Apr2021 11:42:08.195] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: patchouli:patchouli ...
+[09Apr2021 11:42:08.195] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: patchouli:patchouli took 6.000 ?s
+[09Apr2021 11:42:08.195] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug ...
+[09Apr2021 11:42:08.195] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug took 7.000 ?s
+[09Apr2021 11:42:08.195] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal ...
+[09Apr2021 11:42:08.203] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal took 7.922 ms
+[09Apr2021 11:42:08.206] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 9.926 ms
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: patchouli:patchouli ...
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: patchouli:patchouli took 5.300 ?s
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 4.100 ?s
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[09Apr2021 11:42:08.216] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 4.000 ?s
+[09Apr2021 11:42:08.221] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[09Apr2021 11:42:08.381] [Render thread/DEBUG] [mezz.jei.plugins.vanilla.anvil.AnvilRecipeMaker/]: Registered vanilla repair recipes in 3.582 ms
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.plugins.vanilla.anvil.AnvilRecipeMaker/]: Registered enchantment recipes in 16.62 ms
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft took 177.7 ms
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: patchouli:patchouli ...
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: patchouli:patchouli took 6.300 ?s
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug ...
+[09Apr2021 11:42:08.398] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug took 19.50 ?s
+[09Apr2021 11:42:08.399] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal ...
+[09Apr2021 11:42:08.399] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal took 4.000 ?s
+[09Apr2021 11:42:08.399] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[09Apr2021 11:42:08.411] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 11.39 ms
+[09Apr2021 11:42:08.411] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: patchouli:patchouli ...
+[09Apr2021 11:42:08.412] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: patchouli:patchouli took 9.700 ?s
+[09Apr2021 11:42:08.412] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[09Apr2021 11:42:08.412] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 6.100 ?s
+[09Apr2021 11:42:08.412] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[09Apr2021 11:42:08.412] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 5.900 ?s
+[09Apr2021 11:42:08.433] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 258.3 ?s
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: patchouli:patchouli ...
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: patchouli:patchouli took 5.200 ?s
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 6.200 ?s
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[09Apr2021 11:42:08.434] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 3.800 ?s
+[09Apr2021 11:42:08.456] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[09Apr2021 11:42:08.473] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 125.1 ms
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: patchouli:patchouli ...
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: patchouli:patchouli took 10.20 ?s
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug took 6.700 ?s
+[09Apr2021 11:42:08.582] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[09Apr2021 11:42:08.605] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal took 22.90 ms
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 24.00 ?s
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: patchouli:patchouli ...
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: patchouli:patchouli took 4.700 ?s
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug took 4.800 ?s
+[09Apr2021 11:42:08.609] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[09Apr2021 11:42:08.610] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal took 4.700 ?s
+[09Apr2021 11:42:08.610] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list...
+[09Apr2021 11:42:08.653] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientListElementFactory/]: Registering ingredients: ItemStack
+[09Apr2021 11:42:08.664] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientListElementFactory/]: Registering ingredients: FluidStack
+[09Apr2021 11:42:08.665] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient list took 54.66 ms
+[09Apr2021 11:42:08.665] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter...
+[09Apr2021 11:42:08.824] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientFilter/]: Indexing ingredients: Minecraft
+[09Apr2021 11:42:09.590] [Render thread/DEBUG] [mezz.jei.ingredients.IngredientFilter/]: Indexing ingredients: Staff_Craft
+[09Apr2021 11:42:09.601] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building ingredient filter took 936.0 ms
+[09Apr2021 11:42:09.602] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks...
+[09Apr2021 11:42:09.604] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building bookmarks took 2.174 ms
+[09Apr2021 11:42:09.604] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry...
+[09Apr2021 11:42:09.632] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:brewing
+[09Apr2021 11:42:09.651] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:stonecutting
+[09Apr2021 11:42:09.653] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:crafting
+[09Apr2021 11:42:09.679] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:smoking
+[09Apr2021 11:42:09.680] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:anvil
+[09Apr2021 11:42:09.701] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:campfire
+[09Apr2021 11:42:09.702] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:furnace
+[09Apr2021 11:42:09.703] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:fuel
+[09Apr2021 11:42:09.705] [Render thread/DEBUG] [mezz.jei.recipes.RecipeManager/]: Loading recipes: minecraft:blasting
+[09Apr2021 11:42:09.705] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building recipe registry took 101.0 ms
+[09Apr2021 11:42:09.718] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime...
+[09Apr2021 11:42:09.793] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Building runtime took 75.45 ms
+[09Apr2021 11:42:09.795] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[09Apr2021 11:42:09.795] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft took 32.50 ?s
+[09Apr2021 11:42:09.796] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: patchouli:patchouli ...
+[09Apr2021 11:42:09.796] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: patchouli:patchouli took 6.500 ?s
+[09Apr2021 11:42:09.796] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[09Apr2021 11:42:09.796] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug took 19.10 ?s
+[09Apr2021 11:42:09.797] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[09Apr2021 11:42:09.797] [Render thread/DEBUG] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal took 5.900 ?s
+[09Apr2021 11:42:09.837] [Render thread/INFO] [mezz.jei.util.LoggedTimer/]: Starting JEI took 1.947 s
+[09Apr2021 11:42:09.926] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 65 advancements
+[09Apr2021 11:42:09.957] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/categories/recipe.json
+[09Apr2021 11:42:09.964] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/categories/staff.json
+[09Apr2021 11:42:09.965] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/categories/structure.json
+[09Apr2021 11:42:09.969] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/entries/staff/fire_staff.json
+[09Apr2021 11:42:09.974] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/entries/staff/water_staff.json
+[09Apr2021 11:42:09.976] [Render thread/DEBUG] [patchouli/]: Loading /data/staff_craft/patchouli_books/staff_craft/en_us/entries/structure/test.json
+[09Apr2021 11:42:50.939] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:42:50.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:42:51.078] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[09Apr2021 11:43:10.668] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Unknown command
+[09Apr2021 11:43:10.668] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] /gamemode<--[HERE]
+[09Apr2021 11:43:14.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[09Apr2021 11:43:14.658] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[09Apr2021 11:43:16.791] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:43:16.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:16.886] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[09Apr2021 11:43:25.991] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[09Apr2021 11:43:25.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:26.084] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[09Apr2021 11:43:33.983] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[09Apr2021 11:43:34.010] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[09Apr2021 11:43:34.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[09Apr2021 11:43:34.024] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[09Apr2021 11:43:34.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Apr2021 11:43:34.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World'/minecraft:overworld
+[09Apr2021 11:43:34.155] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[09Apr2021 11:43:34.155] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save New World
+[09Apr2021 11:43:34.177] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World (3)): All chunks are saved
+[09Apr2021 11:43:34.206] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Reverting to frozen data state.
+[09Apr2021 11:43:34.206] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.214] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Fluid Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.215] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.223] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Effect Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.223] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.224] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.235] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Potion Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.236] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Enchantment Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.236] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.238] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry TileEntityType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.238] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ParticleType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.239] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ContainerType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.239] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PaintingType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.239] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry IRecipeSerializer Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.240] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry StatType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.240] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry VillagerProfession Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.240] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry PointOfInterestType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.240] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry MemoryModuleType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.241] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SensorType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.241] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Schedule Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.241] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Activity Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.241] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry WorldCarver Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.242] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SurfaceBuilder Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.242] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Feature Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.242] [Server thread/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[09Apr2021 11:43:34.243] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Placement Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.243] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry BiomeProviderType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.244] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkGeneratorType Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.244] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ChunkStatus Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.244] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry ModDimension Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.244] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry DataSerializerEntry Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.244] [Server thread/DEBUG] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry GlobalLootModifierSerializer Sync: ACTIVE -> FROZEN
+[09Apr2021 11:43:34.381] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Applying holder lookups
+[09Apr2021 11:43:34.383] [Server thread/DEBUG] [net.minecraftforge.registries.ObjectHolderRegistry/REGISTRIES]: Holder lookups applied
+[09Apr2021 11:43:34.383] [Server thread/DEBUG] [net.minecraftforge.registries.GameData/REGISTRIES]: Frozen state restored.
+[09Apr2021 11:43:34.384] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : .\saves\New World (3)\serverconfig
+[09Apr2021 11:43:34.384] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

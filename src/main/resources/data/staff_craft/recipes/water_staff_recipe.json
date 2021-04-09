@@ -1,0 +1,16 @@
+{
+  "group": "staff",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "staff_craft:staff"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "staff_craft:water_staff",
+    "count": 1
+  }
+}

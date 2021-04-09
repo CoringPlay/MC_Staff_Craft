@@ -1,0 +1,12 @@
+Args: "--task", "SRG_TO_MCP", "--input", "C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\top.theillusivec4.curios\curios\FORGE-1.15.2-2.0.2.4\d82006abc41fe3a7f56860f4deb7f24b849d1a3a\curios-FORGE-1.15.2-2.0.2.4.jar", "--output", "C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\top\theillusivec4\curios\curios\FORGE-1.15.2-2.0.2.4_mapped_snapshot_20200514-1.15.1\curios-FORGE-1.15.2-2.0.2.4_mapped_snapshot_20200514-1.15.1.jar", "--mcp", "C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20200514-1.15.1\mcp_snapshot-20200514-1.15.1.zip", "--strip-signatures"
+Classpath: C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.1.10\installertools-1.1.10-fatjar.jar
+WorkDir: C:\MCreatorWorkspaces\staff_craft\build\_RenameSrg2Mcp_-55699111
+Main: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  C:\Users\Семья\.mcreator\gradle\caches\modules-2\files-2.1\top.theillusivec4.curios\curios\FORGE-1.15.2-2.0.2.4\d82006abc41fe3a7f56860f4deb7f24b849d1a3a\curios-FORGE-1.15.2-2.0.2.4.jar
+Output: C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\top\theillusivec4\curios\curios\FORGE-1.15.2-2.0.2.4_mapped_snapshot_20200514-1.15.1\curios-FORGE-1.15.2-2.0.2.4_mapped_snapshot_20200514-1.15.1.jar
+MCP:    C:\Users\Семья\.mcreator\gradle\caches\forge_gradle\maven_downloader\de\oceanlabs\mcp\mcp_snapshot\20200514-1.15.1\mcp_snapshot-20200514-1.15.1.zip
+Loading MCP Data
+Stripped Manifest of sha digests
+Process complete

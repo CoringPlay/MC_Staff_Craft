@@ -1,0 +1,23 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": true,
+  "bookData": {
+    "staff_craft:staff_craft": {
+      "viewedEntries": [
+        "staff_craft:staff/fire_staff",
+        "staff_craft:staff/water_staff",
+        "staff_craft:structure/structure",
+        "staff_craft:structure/test"
+      ],
+      "bookmarks": [],
+      "history": [
+        "staff_craft:staff/water_staff",
+        "staff_craft:structure/test",
+        "staff_craft:structure/structure",
+        "staff_craft:staff/fire_staff",
+        "staff_craft:test/test_entry"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
